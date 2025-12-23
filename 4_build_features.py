@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 # Load data
 # --------------------------------------------------------------
 
-df = pd.read_pickle("data_resampled.pkl")
+df = pd.read_pickle("outliers_removed_chauvenet.pkl")
 predicted_columns = list(df.columns[:6])
 
 plt.style.use("fivethirtyeight")
